@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import NodesTree from "./components/NodeTree";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <D3 />
-      </header>
+      <main>
+        <NodesTree />
+      </main>
     </div>
   );
 }
